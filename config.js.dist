@@ -1,6 +1,21 @@
 
 
 	module.exports = {
-		  port: 13023
-		, interface: 5
+		  port 			: 13023
+		, interface 	: 5
+		, repositories: [
+			{
+				  repository 	: 'et-github-autorelease'
+				, branch 	 	: 'test'
+				, path 			: '/apps/eventemitter/et-github-autorelease'
+				, service 		: 'autorelease'
+			}
+			, {
+				  repository 	: 'cornercard-frontend'
+				, branch 	 	: 'client-stage'
+				, path 			: '/apps/eventbooster/cornercard-frontend'
+				, service 		: 'cornercard-frontend-client'
+			}
+		]
+		
 	};
