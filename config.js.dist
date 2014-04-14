@@ -1,0 +1,6 @@
+
+
+	module.exports = {
+		  port: 13023
+		, interface: 5
+	};

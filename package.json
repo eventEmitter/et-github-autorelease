@@ -1,0 +1,31 @@
+{
+      "name"                        : "et-github-autorelease"
+    , "description"                 : "update a repo using github webhooks"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/et-github-autorelease"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "os"                          : "!win"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/et-github-autorelease.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/et-github-autorelease/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "0.3.x"
+        , "ee-event-emitter"        : "0.1.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-log"                  : "0.2.x"
+        , "ee-project"              : "0.2.x"
+        , "ee-webservice"           : "0.2.x"
+        , "em-formdata-collector"   : "0.1.x"
+    }
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+    , "keywords"                    : ["github", "webhook", "deploy"]
+}
