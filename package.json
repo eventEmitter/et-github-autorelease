@@ -24,6 +24,7 @@
         , "ee-project"              : "0.2.x"
         , "ee-webservice"           : "0.2.x"
         , "em-formdata-collector"   : "0.1.x"
+        , "ee-simple-repl"          : "0.1.x"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
