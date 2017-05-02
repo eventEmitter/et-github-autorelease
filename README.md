@@ -1,4 +1,6 @@
 # et-github-autorelease
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/et-github-autorelease.svg)](https://greenkeeper.io/)
  
 
 ## installation
